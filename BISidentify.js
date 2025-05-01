@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
     setTimeout(() => {
       const notifyMe = document.querySelector('.klaviyo-bis-trigger');
       if (!notifyMe) {
-        console.warn('Notify Me button not found');
+        console.log('Notify Me button not found');
         return;
       }
     
